@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "699845069695",
+    "project_id": "push-notification-mahdi",
+    "storage_bucket": "push-notification-mahdi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699845069695:android:2bf971634359a636fb284a",
+        "android_client_info": {
+          "package_name": "com.mahdikaseatashin.pushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699845069695-u8hkjg4qe3psudoe8iqss0n2badu91gg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB05hpFD1zBi893lVPyDazxMn-OHTXwgJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699845069695-u8hkjg4qe3psudoe8iqss0n2badu91gg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
