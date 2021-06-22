@@ -2,7 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mahdikaseatashin.pushnotification">
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!--> اگر می‌خواهید بدون درخواست دسترسی لوکیشن به لوکیشن کاربر دسترسی داشته باشید، تنها این خط را حذف کنید <!-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
     <application
+        android:name=".NajvaApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,6 +23,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="com.najva.sdk.metadata.API_KEY"
+            android:value="b6542ae1-0df5-434c-ae6c-0dc72b786e3f" />
+        <meta-data
+            android:name="com.najva.sdk.metadata.WEBSITE_ID"
+            android:value="27878" />
     </application>
 
 </manifest>
