@@ -3,7 +3,7 @@
     package="com.mahdikaseatashin.pushnotification">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-<!--must add api key after sign up-->
+<!--TODO (Add API KEY)-->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
